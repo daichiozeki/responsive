@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/*
+スマホ： 320px - 480px
+タブレット： 480px - 768px
+PC；768px以上
+
+*/
+
+/* 共通の設定　*/
+body{
+    font-family: Arial, Verdana, sans-serif;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+
+#header{
+    background: red;
+}
+
+#footer{
+    background: green;
+}
+
+#container{
+}
+
+#main{
+    background: orange;
+}
+
+#sub{
+    background: yellow;
+}
+
+/* スマホの設定　*/
+
+
+/* タブレットの設定　*/
+@media all and (min-width: 480px){
+    
+}
+
+/* PCの設定　*/
+@media all and (min-width: 768px) {
+    
+}
